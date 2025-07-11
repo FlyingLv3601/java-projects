@@ -22,10 +22,10 @@ public class Vector{
 
 		Vector vectorA = new Vector();
 		Vector vectorB = new Vector(3,4);
-        vectorB.length = 50;
-        vectorB.angle = 100;
+        vectorB.length = (int) Math.sqrt(Math.pow(vectorB.cords[0], 2) + Math.pow(vectorB.cords[1], 2));
 
-        System.out.println("(" + vectorB.cords[0] + " ; " + vectorB.cords[1] + ")" + " length:"  + vectorB.length + " vector angle: " + vectorB.angle);
+        System.out.println("vector coordinates: " + "(" + vectorB.cords[0] + "; " + vectorB.cords[1] + ")" );
+        System.out.println("vector length: " + vectorB.length);
 
 
 	} 
