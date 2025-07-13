@@ -20,7 +20,7 @@ public class Vector{
 
 
     public int vectorSum(int pos1, int pos2){
-        return pos1+pos2;
+        return (int) Math.sqrt(math.poe(pos1, 2) + Math.pow(pos2, 2));
     }
 
     public int vectorLength(int posX, int posY){
@@ -64,6 +64,7 @@ public class Vector{
         System.out.println("-----------------------------");
 
         System.out.println("coordinates vector a: " + positionA + " vector a length: " + vectorAlength + "\n"+ "coordinates vector b: "  + positionB + "vector b length: " + vectorBlength + "\n" + "sum of two vectors: " + vectorsSum);
+\
 
         System.out.println("-----------------------------");
     } 
